@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./main.css">
     <title>HEXASHOP</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 </head>
 
 <body>
@@ -26,7 +28,7 @@
             </ul>
         </nav>
         <section class="hero">
-            <div class="wrapper-1">
+            <div class="wrapper-1" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="800">
                 <img src="./assets/images/left-banner-image.jpg" alt="">
                 <span class="outer-lay">
                     <h2>We Are Hexashop</h2>
@@ -34,7 +36,7 @@
                     <button class="btn-purchase">Purchase Now!</button>
                 </span>
             </div>
-            <div class="wrapper-2">
+            <div class="wrapper-2" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="800">
                 <div class="sub-wrapper">
                     <div><img src="./assets/images/baner-right-image-01.jpg" alt=""></div>
                     <div><img src="./assets/images/baner-right-image-02.jpg" alt=""></div>
@@ -47,11 +49,37 @@
         </section>
     </header>
     <main>
+        <section class="men-section" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="800">
+            <div>
+                <h2>Men's Latest</h2>
+                <p>Details to details is what makes Hexashop different from the other themes.</p>
+                <div class="mens-img-con">
+                    <div class="sub-con">
+                        <img src="./assets/images/men-01.jpg" alt="">
+                        <h2>Classic Spring</h2>
+                        <span>$120.00</span>
+                    </div>
+                    <div class="sub-con">
+                        <img src="./assets/images/men-02.jpg" alt="">
+                        <h2>Air Force x1</h2>
+                        <span>$90.00</span>
+                    </div>
+                    <div class="sub-con">
+                        <img src="./assets/images/men-03.jpg" alt="">
+                        <h2>Love Nana '20</h2>
+                        <span>$150.00</span>
+                    </div>
+                </div>
+            </div>
+        </section>
 
     </main>
     <footer>
 
     </footer>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>
