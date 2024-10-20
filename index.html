@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./main.css">
     <title>HEXASHOP</title>
+    <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 </head>
@@ -153,7 +154,7 @@
     <footer>
         <div class="sec-1">
             <div>
-                <span>
+                <span class="img-con">
                     <img src="./assets/images/white-logo.png" alt="">
                 </span>
                 <div class="newsletter">
@@ -162,11 +163,17 @@
                             <h2>By Subscribing To Our Newsletter You Can Get 30% Off</h2>
                             <p>Details to details is what makes Hexashop different from the other themes.</p>
                         </div>
-                        <label>
-                            <input type="text" name="username" placeholder="your name" id="username">
-                        </label><label>
-                            <input type="text" name="email" placeholder="your email address" id="newsletter-email">
-                        </label>
+                        <div>
+                            <label>
+                                <input type="text" name="username" placeholder="your name" id="username">
+                            </label>
+                            <label>
+                                <input type="text" name="email" placeholder="your email address" id="newsletter-email">
+                            </label>
+                            <label>
+                                <button type="submit">submit</button>
+                            </label>
+                        </div>
                     </div>
                     <div class="row-2">
                         <div class="box">
@@ -185,21 +192,34 @@
                             <h3>Office Location:</h3>
                             <p>North Miami Beach</p>
                         </div>
+                        <div class="box">
+                            <h3>Email:</h3>
+                            <p>info@company.com</p>
+                        </div>
+                        <div class="box">
+                            <h3>Social Media:</h3>
+                            <p>Facebook, Instagram, Behance, Linkedin</p>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="footer-div-1">
-
-            </div>
         </div>
-
         <div class="footer-div-2">
-
+            <p>Copyright © 2022 HexaShop Co., Ltd. All Rights Reserved.
+            </p>
+            <p>Design: TemplateMo</p>
+            <div>
+                <span><ion-icon width="25px" name="logo-facebook"></ion-icon></span>
+                <span><ion-icon width="25px" name="logo-instagram"></ion-icon></span>
+                <span><ion-icon width="25px" name="logo-linkedin"></ion-icon></span>
+                <span><ion-icon width="25px" name="logo-youtube"></ion-icon></span>
+            </div>
         </div>
     </footer>
     <script>
         AOS.init();
     </script>
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
 </body>
 
 </html>
